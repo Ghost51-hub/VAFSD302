@@ -1,0 +1,28 @@
+body{ background-color:aqua;}
+body{ background-image: url("./counter_strike_2_video_game_2023_team-wallpaper-1920x1080.jpg");}
+body{ background-repeat:no-repeat ;}
+/* body{ background-size: cover;} */
+body{ background-position:top right ;}
+h1{
+    color: rgb(rgb(160, 76, 76), green, blue);
+    text-decoration: line-through;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 5px 1px px #f04;
+    text-indent: 20px;
+}
+P{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    font-weight: 900;
+    font-style: italic;
+    font-variant: small-caps;
+}
+div{ 
+    width: 900px;
+    height: 500px;
+    margin:0 auto;
+    padding: 0px;
+    background-image: radial-gradient(blue,black,white);
+}
