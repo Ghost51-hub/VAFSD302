@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+            background-color: white;
+            border-bottom: 1px solid #ddd;
+        }
+        .navbar .logo {
+            display: flex;
+            align-items: center;
+        }
+        .navbar .logo img {
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+        }
+        .navbar .menu {
+            display: flex;
+            align-items: center;
+            margin-left: auto;
+        }
+        .navbar .menu a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        .navbar .buttons {
+            display: flex;
+            align-items: center;
+        }
+        .navbar .buttons .login {
+            margin-right: 15px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            border: 1px solid blue; /* Thin blue border */
+            padding: 5px 10px; /* Adding some padding */
+            border-radius: 12px; /* Curved corners */
+        }
+        .navbar .buttons .get-started {
+            padding: 5px 15px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+            <span>OUTFUNNEL</span>
+        </div>
+        <div class="menu">
+            <a href="#">Product</a>
+            <a href="#">Integrations</a>
+            <a href="#">Pricing</a>
+            <a href="#">Resources</a>
+        </div>
+        <div class="buttons">
+            <a href="#" class="login">Login</a>
+            <a href="#" class="get-started">Get started</a>
+        </div>
+    </div>
+</body>
+</html>
